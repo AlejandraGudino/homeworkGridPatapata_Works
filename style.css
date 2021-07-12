@@ -1,0 +1,205 @@
+
+.grid-container{
+   display: grid;
+   grid-template-columns: 130px 130px 130px 130px;
+   grid-template-rows: 150px 150px 400px 550px 600px 100px 380px 400px 200px 100px 300px 200px 200px 100px;
+}
+.item1{
+    grid-row: span 2;
+    padding-top: 30px;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px;
+    height: 25px;
+}
+.item2{
+    grid-column: 5;
+    grid-row: 1; 
+    justify-self: end;
+    height: 50px;
+}
+.logo{
+    width: 120px;
+
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 20px;
+    padding-top: 100px;
+}
+.item3{
+    grid-column: 5;
+    grid-row: 2;
+    font-family: Montserrat,sans-serif;
+    color: #643a39;
+}
+.item4{
+    grid-row: 3;
+    grid-column: 1,3;
+}
+.banner1{
+    width: 1300px;
+    height: 400px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 50px 50px 100px 100px 50px 25px 50px;
+
+}
+.item5{
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 60px;
+    height: 1600px;
+   
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: .4rem;
+    font-family: "Noto Sans JP",Montserrat,-apple-system,BlinkMacSystemFont,"Helvetica Neue","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","BIZ UDPGothic",sans-serif;
+    color: #643a39;
+
+}
+p{
+    font-weight: 200;
+    font-family: "Noto Sans JP",Montserrat,-apple-system,BlinkMacSystemFont,"Helvetica Neue","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","BIZ UDPGothic",sans-serif;
+    color: #643a39;
+}
+.button{
+    align-self: center;
+    width: 100%;
+    max-width: 480px;
+    background: #efb53c;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    transition: background .5s;
+}
+.button:hover{
+    background: #f6db57;
+}
+.item6{
+    grid-row: 4;
+    grid-column: 5;
+    justify-self: end;
+    padding: 60px;
+}
+.image2{
+    height: 400px;
+}
+.item7{
+    grid-row: 5;
+}
+.container5{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 250px 100px 100px;
+    align-content: space-around;
+    padding: 25px 50px 25px 50px;
+    max-width: 280px;
+}
+.image3{
+    width: 300px;
+    height: 350px;
+}
+.paragraf{
+    max-width: 300px;
+    font-family: "Noto Sans JP",Montserrat,-apple-system,BlinkMacSystemFont,"Helvetica Neue","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","BIZ UDPGothic",sans-serif;
+    color: #643a39;
+}
+.item8{
+   grid-row: 6;
+   grid-column: 5;
+   align-content: space-around;
+   font-family: Montserrat,sans-serif;
+   color: #ded4c8;
+   font-size: 2rem;
+   letter-spacing: .4rem;
+}
+.item9{
+    grid-row: 7;
+}
+.container6{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 250px;  
+    align-content: space-around;
+    padding-left: 70px;
+}
+.workImages{
+    width: 300px;
+    height: 300px;
+}
+.item10{
+    grid-row: 8;
+}
+.container7{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 250px;  
+    align-content: space-around;
+    padding-left: 70px;
+}
+.item11{
+    grid-row: 9;
+    grid-column: 4/6;
+    align-content: stretch;
+}
+.button2{
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    grid-gap: 10px;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+    max-width: 480px;
+    background: #efb53c;
+    color: #fff;
+    padding: 1rem;
+    transition: background .5s;
+}
+.button2:hover{
+    background: #f6db57;
+}
+.item12{
+    grid-row: 10;
+    grid-column: 5;
+    align-content: space-around;
+    font-family: Montserrat,sans-serif;
+    color: #ded4c8;
+    font-size: 2rem;
+    letter-spacing: .4rem;
+}
+.item13{
+    grid-row: 11;
+    grid-column: 5;
+}
+.item14{
+    grid-row: 12;
+    grid-column: 5;
+    padding-left: 50px;
+    
+}
+.item14 img{
+    width: 100px;
+}
+.item15{
+    grid-row: 13;
+    grid-column: 5;
+    padding-right: 300px;
+}
+.container8{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px;
+}
+.item16{
+    grid-row: 14;
+    grid-column: 5;
+}
